@@ -1,3 +1,17 @@
+#"""
+#Multi-panel Image Plot
+
+#This code segment demonstrates the creation of a multi-panel plot using Matplotlib. It loads a main image 
+#('Hubble_UDF_RGB.png') using 'mpimg.imread', then generates subregion placeholders with random data to showcase 
+#inset views within a 2x2 subplot grid.
+
+#Dependencies:
+#- matplotlib
+#- numpy
+
+#Note: Replace 'Hubble_UDF_RGB.png' with the path to your main image file.
+
+#"""
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
