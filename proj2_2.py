@@ -1,3 +1,17 @@
+#"""
+#Galaxy Catalog Visualization and Redshift Analysis
+
+#This code segment focuses on loading and visualizing data related to the Hubble Ultra Deep Field (HUDF).
+#It involves loading an RGB image and a galaxy catalog, visualizing the RGB image, plotting galaxies on the image,
+#and analyzing redshift distributions of the cataloged galaxies.
+
+#Dependencies:
+#- pandas
+#- matplotlib
+
+#Note: Ensure 'rgb_screenshot.png' and 'galaxy_catalog.csv' files exist in the working directory.
+
+#"""
 import pandas as pd
 import matplotlib.pyplot as plt
 
