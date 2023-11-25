@@ -1,3 +1,18 @@
+#RGB Image Generation from FITS Data
+
+#This code snippet processes FITS files containing red, green, and blue wavelength data to create an RGB image
+#representing the Hubble Ultra Deep Field (HUDF). It involves loading, normalization, resizing, and combining the
+#color channels to generate the final RGB image.
+
+#Dependencies:
+#- astropy
+#- numpy
+#- matplotlib
+#- skimage
+
+#Note: Ensure FITS files 'red_image.fits', 'green_image.fits', and 'blue_image.fits' exist in the working directory.
+
+#"""
 from astropy.io import fits
 import numpy as np
 import matplotlib.pyplot as plt
