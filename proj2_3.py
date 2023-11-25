@@ -1,3 +1,16 @@
+#"""
+#Galaxy Redshift Analysis Visualization
+
+#This section of code focuses on visualizing redshift distributions for galaxies in the catalog.
+#It filters galaxies with both photometric and spectroscopic redshifts, creates histograms to depict their distributions,
+#and generates a scatter plot to compare photometric and spectroscopic redshift values.
+
+#Dependencies:
+#- matplotlib
+
+#Note: This assumes a 'galaxy_catalog' dataframe is available in the current environment.
+
+#"""
 import matplotlib.pyplot as plt
 
 # Filter galaxies with both photometric and spectroscopic redshifts
